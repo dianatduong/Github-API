@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct APITestApp: App {
+    
+    @Bindable var nm = NetworkManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(nm: nm)
         }
     }
 }

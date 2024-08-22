@@ -11,6 +11,7 @@
 		A3A494532C695F3A00981D55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A494522C695F3A00981D55 /* ContentView.swift */; };
 		A3A494552C695F3E00981D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A494542C695F3E00981D55 /* Assets.xcassets */; };
 		A3A494582C695F3E00981D55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A494572C695F3E00981D55 /* Preview Assets.xcassets */; };
+		A3A4945F2C69627100981D55 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4945E2C69627100981D55 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A3A494522C695F3A00981D55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3A494542C695F3E00981D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3A494572C695F3E00981D55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3A4945E2C69627100981D55 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A3A494502C695F3A00981D55 /* APITestApp.swift */,
 				A3A494522C695F3A00981D55 /* ContentView.swift */,
+				A3A4945E2C69627100981D55 /* NetworkManager.swift */,
 				A3A494542C695F3E00981D55 /* Assets.xcassets */,
 				A3A494562C695F3E00981D55 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A4945F2C69627100981D55 /* NetworkManager.swift in Sources */,
 				A3A494532C695F3A00981D55 /* ContentView.swift in Sources */,
 				A3A494512C695F3A00981D55 /* APITestApp.swift in Sources */,
 			);
