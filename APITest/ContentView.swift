@@ -41,6 +41,9 @@ struct ContentView: View {
                     Text(nm.user?.bio ?? "")
                         .font(.caption2)
                         .foregroundColor(.white)
+                    
+                    Text("Public Repos: \(nm.user?.publicRepos ?? 0)")                        .font(.caption2)
+                        .foregroundColor(.white)
                 }
                     
                 Text("Hello, welcome to SwiftUI")

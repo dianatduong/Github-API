@@ -11,6 +11,7 @@ struct GitHubUser: Codable{
     let name: String
     let bio: String
     let avatarUrl:String
+    let publicRepos: Int
 }
 
 @Observable
